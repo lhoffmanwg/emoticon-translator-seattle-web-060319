@@ -24,8 +24,9 @@ def get_japanese_emoticon(path, emoticon)
 
     if key == "get_emoticon"
       value.each do |e_emoticon, j_emoticon|
-        if emoticon = 
-        binding.pry
+        if emoticon = e_emoticon
+          binding.pry
+        end  
       end  
     end   
   
