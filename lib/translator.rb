@@ -20,17 +20,17 @@ end
 
 def get_japanese_emoticon(path, emoticon)
  emoticon_hash = load_library(path)
- emoticon_hash.each do |key, value|
+# emoticon_hash.each do |key, value|
 
-    if key == "get_emoticon"
-      value.each do |e_emoticon, j_emoticon|
-        if emoticon = e_emoticon
-          binding.pry
-          return j_emoticon
+#    if key == "get_emoticon"
+#      value.each do |e_emoticon, j_emoticon|
+#        if emoticon = e_emoticon
+#          binding.pry
+#          return j_emoticon
           
-        end  
-      end  
-    end   
+ #       end  
+ #     end  
+  #  end   
   
  end
  
