@@ -25,7 +25,7 @@ def get_japanese_emoticon(path, emoticon)
     value.each do |j_emoticon, meaning|
     binding.pry
    end   
- 
+  end
  end
   #emoticons.each do |meaning, ary|
   #  if meaning == "grinning"
