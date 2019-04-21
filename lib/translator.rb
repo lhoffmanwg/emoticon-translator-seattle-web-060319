@@ -20,8 +20,10 @@ end
 
 def get_japanese_emoticon(path, emoticon)
  emoticon_hash = load_library(path)
-
+ emoticon_hash.each do |key, value|
+   
  binding.pry
+ end
   #emoticons.each do |meaning, ary|
   #  if meaning == "grinning"
       #binding.pry
