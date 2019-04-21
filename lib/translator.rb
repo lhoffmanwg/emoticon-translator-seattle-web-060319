@@ -26,19 +26,6 @@ def get_japanese_emoticon(path, emoticon)
   end
   result
 end
- 
- 
-# emoticon_hash.each do |key, value|
-
-#    if key == "get_emoticon"
-#      value.each do |e_emoticon, j_emoticon|
-#        if emoticon = e_emoticon
-#          binding.pry
-#          return j_emoticon
-          
- #       end  
- #     end  
-  #  end   
 
 def get_english_meaning
   # code goes here
